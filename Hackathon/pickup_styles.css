@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+	background: linear-gradient(#DFFFb6, #D2FAF5);
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    float:  left;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-left: 200px;
+    margin-right: 250px;
+}
+
+input {
+    width : 330px;
+    height: 30px;
+}
+
+/** STYLING BUTTONS **/
+
+
+.submit, .search {
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.submit:hover, .search:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.submit {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+/** END **/
+
+
+
+/** STYLING THE NAVBAR **/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D2FAF5;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DFFFb6;
+  color: black;
+}
+
+.company-name {
+    float: right;
+    margin-right: 30px;
+}
+
+/** END **/
+

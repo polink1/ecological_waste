@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+	background: linear-gradient(#DFFFb6, #D2FAF5);
+}
+
+h1 {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.articles {
+	padding-left: 100px;
+}
+
+.box {
+overflow: hidden;
+position: relative;
+min-width: 350px;
+max-width: 350px;
+height: 460px;
+padding: 1rem;
+margin: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+color: white;
+background: lightblue;
+box-shadow: 0 8px 32px  rgba(16, 26, 160, 0.37);
+border-radius: 50px;
+float: left;
+width: 33.33%;
+}
+
+.box a {
+
+margin-top: 10px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+padding: 10px 0;
+color: white;
+}
+
+/** STYLING THE NAVBAR **/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D2FAF5;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DFFFb6;
+  color: black;
+}
+
+.company-name {
+    float: right;
+    margin-right: 30px;
+}
+
+/** END **/
+
