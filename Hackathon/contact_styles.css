@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Inter', sans-serif
+}
+
+body {
+	background: linear-gradient(#DFFFb6, #D2FAF5);
+}
+
+
+/** STYLING THE NAVBAR **/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D2FAF5;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DFFFb6;
+  color: black;
+}
+
+.company-name {
+    float: right;
+    margin-right: 30px;
+}
+
+/** END **/
+
+.contact {
+   overflow: hidden;
+position: relative;
+min-width: 350px;
+max-width: 350px;
+height: 800px;
+padding: 1rem;
+float: left;
+width: 33.33%;
+padding-top: 250px;
+}
+
+.contact form {
+    font-size: 20px;
+
+}
+
+.contact_container {
+    padding-left: 160px;
+}
+
+
+/** STYLING BUTTONS **/
+
+
+.submit {
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.submit:hover  {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.submit {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+/** END **/
+/** STYLING FOOTER **/
+
+
+.site-footer {
+    background-color: #DCDCDC;
+    align-items: center;
+    width:  100%;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+.footer-contact h3, .footer-links a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+.footer-links a:hover {
+  background-color: #DFFFb6;
+  color: black;
+}
+
+
+/** END **//
